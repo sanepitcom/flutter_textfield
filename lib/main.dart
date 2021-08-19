@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     home: Scaffold(
       appBar: AppBar(title: Text('Text Field Example')),
       body: Padding(
-        padding: EdgeInsets.all(15),
+        padding: EdgeInsets.only(left: 15, right: 15, top: 15, bottom: 15),
         child: TextFieldExmaple(),
       )
     ),
